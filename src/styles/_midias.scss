@@ -1,0 +1,19 @@
+@use 'variables';
+
+.midias {
+    display: flex;
+    max-width: 1903px;
+    height: 100px;
+    justify-content: space-around;
+    background-color: variables.$colorDB;
+    
+    &__titulo {
+        color: variables.$colorW;
+        margin: 14px 0;
+    }
+
+    &__sociais {
+        display: inline;
+        margin-left: 4px;
+    }
+}

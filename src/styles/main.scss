@@ -1,0 +1,48 @@
+@use 'header';
+@use 'bgHeader';
+@use 'visaoGeral';
+@use 'lichking';
+@use 'faq';
+@use 'midias';
+@use 'variables';
+@use 'upArrow';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",Helvetica,Arial,sans-serif;
+    list-style: none;
+    text-decoration: none;
+    max-width: 1920px;
+}
+
+header {
+    position: relative;
+}
+
+a {
+    color: variables.$colorW;
+    cursor: pointer;
+}
+
+.visao_geral {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.lichking {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    }
+
+button {
+    background-color: transparent;
+    font-size: large;
+    color: variables.$colorY;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}

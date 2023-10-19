@@ -1,0 +1,56 @@
+@use 'variables';
+
+.bgHeader {
+    display: flex;
+    max-width: 100%;
+    width: 1920px;
+    height: 960px;
+    
+    a {
+        cursor: pointer;
+    }
+
+    &__BG {
+        width: 1920px;
+        position:fixed;
+        top: 0;
+        z-index: -1;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+
+                &__img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+    }
+
+    &__assine {
+        padding-left: 1000px;
+        padding-top: 400px;
+
+        &__img {
+            display: flex;
+            align-items: baseline;
+            justify-content: baseline;
+        }
+        
+            &__btn {
+            background-image: url(/dist/images/button.webp);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-left: 32px;
+
+                &__text {
+                    color: variables.$colorY;
+                    text-align: center;
+                    display: inline;
+                    width: 180px;
+                    letter-spacing: 2px;
+                    font-size: 14px;
+                    font-weight: 600;
+            }
+        }
+    }
+}

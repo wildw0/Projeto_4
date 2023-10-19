@@ -1,0 +1,54 @@
+@use 'variables';
+
+.visao__geral {
+    display: flex;
+    max-width: 1920px;
+    height: 960px;
+    font-weight: 600;
+
+        
+        &__Bg {
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            align-content: stretch;
+            align-items:center;
+            justify-content: space-evenly;
+
+            img {
+                position: absolute;
+                width: 1920px;
+                max-width: 100%;
+                z-index: -1;
+            }
+        }
+
+        &__titulo {
+            font-size: 2em;
+            margin-left: 24px;
+            margin-bottom: 60vh;
+            white-space: nowrap;
+            text-transform: uppercase;
+
+        }
+
+        &__item {
+            display: flex;
+            position: relative;
+            min-width: 72%;
+            margin-right: 3%;
+            margin-left: 8px;
+            margin-bottom: 40vh;
+    }
+
+        &__text {
+            display: flex;
+            position: relative;
+            min-width: 22%;
+            min-width: 960px;
+            margin-left: 3%;
+            font-size: 18px;
+            text-align: justify;
+    }
+}
+
